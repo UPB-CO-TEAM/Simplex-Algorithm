@@ -15,14 +15,14 @@ st.markdown("""
     .title-box {
         background-color: #BBD2E1; /* Culoarea Baby Blue */
         border-radius: 10px;
-        padding: 25px; /* Spatiu mai mare */
+        padding: 25px; 
         text-align: center;
         margin-bottom: 20px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     }
     .title-text {
         color: #004B87; /* Albastru inchis pentru contrast bun pe Baby Blue */
-        font-size: 80px; /* Titlu mai mare */
+        font-size: 80px; 
         font-weight: 900;
         margin: 0;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -286,7 +286,7 @@ def validare_solutie(XB_final, Z_final, deltas_final, baza_finala, TS_final, A_p
     
     with col_s:
         st.write("Matricea **S**")
-        # FIX PENTRU EROAREA APPLYMAP: Aplicam functia inainte sa facem dataframe-ul!
+        #  EROAREA APPLYMAP: Aplicam functia inainte sa facem dataframe-ul!
         S_formatat = [[f(val) for val in rand] for rand in S_matrice]
         df_s = pd.DataFrame(S_formatat, columns=[f"a{b+1}" for b in baza_finala])
         st.dataframe(df_s, hide_index=True)
