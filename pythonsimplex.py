@@ -22,13 +22,14 @@ st.markdown("""
     }
     .title-text {
         color: #004B87; /* Albastru inchis pentru contrast bun pe Baby Blue */
-        font-size: 42px; /* Titlu mai mare */
+        font-size: 60px; /* Titlu mai mare */
         font-weight: 900;
         margin: 0;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     /* Design pentru lista autorilor (Aliniat la dreapta) */
     .authors-box {
+        color: #90CAF9;
         text-align: right;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin-bottom: 40px;
