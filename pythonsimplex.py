@@ -4,11 +4,11 @@ import pandas as pd
 from fractions import Fraction
 
 # ==========================================
-# --- CONFIGURARE PAGINĂ & DESIGN (CSS) ---
+# --- CONFIGURARE PAGINA & DESIGN (CSS) ---
 # ==========================================
 st.set_page_config(page_title="Algoritm Simplex", layout="wide")
 
-# Injectam CSS personalizat adaptat pentru Dark Mode
+# CSS personalizat adaptat pentru Dark Mode
 st.markdown("""
     <style>
     /* Design pentru Banner-ul principal (Baby Blue) */
@@ -73,7 +73,7 @@ st.divider() # O linie despartitoare
 
 
 # ==========================================
-# --- CODUL TAU MATEMATIC ---
+#        --- CODUL MATEMATIC ---
 # ==========================================
 
 # Functie care transforma orice numar in fractie
