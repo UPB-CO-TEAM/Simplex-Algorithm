@@ -122,6 +122,6 @@ Consult the validation section for mathematical confirmation of the optimum.
 
 ## License
 
-© 2026 — Dedu A., Dumitrescu A., Iliescu D., Lungu D.
+© 2026 — Iliescu D., Lungu D., Dedu A., Dumitrescu A.
 
 Developed for academic purposes. Use of the code for educational purposes is permitted with **proper attribution to the authors**.
